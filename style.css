@@ -1,0 +1,590 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'League Spartan';
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.nav{
+    display: flex;
+    padding: 10px 50px;
+    justify-content: space-around;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+}
+.opt ul{
+    display: flex;
+    list-style: none;
+    /* justify-content: space-between;
+    width: 550px; */
+    font-size: 16px;
+    align-items: center;
+}
+.opt ul li{
+    margin: 0 15px;
+}
+.lang{
+    display: flex;
+    justify-content: space-between;
+    width: 80px;
+}
+.bg1{
+    width: 100%;
+    height: 110vh;
+    background-image: url(logo/BG/bg1.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+.center{
+    padding-top: 2%;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    flex-direction: column;
+}
+.cont{
+    text-align: left;
+    margin: 30px 10.5%;
+}
+.cont h1{
+    font-size: 60px;
+}
+.cont p{
+    font-size: 25px;
+}
+.cont button{
+    border: 0px;
+    border-radius: 3px;
+    margin: 25px 0 0 0;
+    width: 250px;
+    height: 50px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: rgb(142, 0, 0);
+}
+.cont button:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(105, 105, 105);
+}
+.intro{
+    width: 80%;
+    margin: 6% 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: rgb(60, 60, 60);
+}
+.head h1{
+    font-size: 55px;
+    letter-spacing: 0.5%;
+    font-weight: 700;
+    margin-bottom: 4%;
+}
+.para p{
+    font-size: 24px;
+    line-height: 1.5;
+    word-spacing: 2px;
+    margin-bottom: 3%;
+}
+.explore{
+    font-size: 19px;
+    margin-bottom: 3%;
+    text-decoration: none;
+}
+.btns{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+}
+.btns button{
+    width: 180px;
+    height: 90px;
+    background-color: #fff;
+    border: 0;
+}
+.btns img{
+    border-radius: 7px;
+}
+.img2{
+    width: 100%;
+    height: 77vh;
+    background-image: url(logo/BG/bg2.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+.img2 img{
+    width: 80%;
+    margin: 4.3% 10%;
+}
+.para2 p{
+    margin-top: -30px;
+    line-height: 1.2;
+    margin-bottom: -30px;
+}
+.detail2{
+    width: 80%;
+    margin: 0 10% 4% 10%;
+    display: flex;
+    align-items: center;
+    /* flex-direction: row; */
+    justify-content: space-between;
+}
+.img3 img{
+    margin-right: 40px;
+}
+.para3 p{
+    width: 90%;
+    text-align: justify;
+    line-height: 1.4;
+    font-size: 22px;
+}
+.group{
+    width: 80%;
+    margin: 0 10% 10% 10%;
+    display: flex;
+    justify-content: space-between;
+}
+.grp1,.grp2 div{
+    width: 100%;
+    /* background-color: aqua; */
+    margin-right: 10px;
+}
+.grp1 img,.grp2 img{
+    margin-bottom: 3%;
+}
+.grp1 h2, .grp2 h2{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 2%;
+}
+.group p{
+    font-size: 23px;
+    margin-bottom: 4%;
+}
+.grp11,.grp21{
+    height: 280px;
+}
+.bg3{
+    width: 100%;
+    height: 73vh;
+    background-image: url(logo/BG/bg4.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    padding: 30px 16%;
+}
+.h1 h1{
+    margin-top: 15px;
+    margin-bottom: -15%;
+}
+.par{
+    margin-top: 7%;
+    margin-bottom: -7%;
+    text-align: center;
+    line-height: 1.2;
+}
+.desc{
+    width: 80%;
+    margin: 7% 10%;
+}
+.desc h1{
+    font-size: 55px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+.desc p{
+    font-size: 25px;
+    line-height: 1.2;
+}
+.con3{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    margin: 5% 10%;
+}
+.con3 img{
+    margin-bottom: 15px;
+}
+.con3 p{
+    width: 50px;
+    height: 20px;
+    padding-bottom: -5px;
+    background-color: rgb(234, 234, 234);
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.con3 h1{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.con3 h2,.con3 h3{
+    color: rgb(80, 80, 80);
+    margin-bottom: 10px;
+}
+.con3 h3{
+    font-weight: 400;
+}
+.fotor{
+    width: 100%;
+    padding: 7% 10% 3% 10%;
+    background-color: rgb(243, 243, 243);
+}
+.fo1 h1{
+    font-size: 53px;
+    font-weight: 1000;
+    margin-bottom: 12px;
+}
+.fo1 p{
+    font-size: 25px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+.fo2 h2{
+    font-size: 35px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.fo2 p{
+    font-size: 25px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+.footer{
+    height: 75vh;
+    background-color: #1c1c1c;
+}
+.whoweare ul li{
+    margin-bottom: 40px;
+}
+.jobs h2{
+    margin-bottom: 20px;
+}
+.jobs ul li{
+    list-style: none;
+    margin-bottom: 40px;
+}
+.links h2{
+    margin-bottom: 20px;
+}
+.links ul li{
+    list-style: none;
+    margin-bottom: 40px;
+}
+.icons{
+    width: 80%;
+    font-size: 24px;
+    margin: -40px 10% 30px 10%;
+    text-align: center;
+}
+.icons .fa{
+    margin-right: 30px;
+}
+.icons .fa:hover{
+    color: rgb(105, 105, 105);
+}
+
+.bg2{
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    background-image: url(logo/BG/bg5.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+.h2{
+    width: 80%;
+    padding: 0 10%;
+    color: #fff;
+    position: absolute;
+    bottom: 80px;
+}
+.h2 h1{
+    font-size: 70px;
+}
+.h2 p{
+    font-size: 30px;
+}
+.bg4{
+    width: 100%;
+    height: 37vh;
+    background-image: url(logo/BG/bg6.webp);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+.bg4 .img{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0 10%;
+}
+.det1{
+    display: flex;
+    flex-direction: column;
+    padding: 8% 10%;
+}
+.det1 .h1{
+    font-size: 58px;
+    letter-spacing: 0.5%;
+    font-weight: 700;
+    margin-bottom: 1%;
+}
+.det1 .p{
+    font-size: 24px;
+    line-height: 1.4;
+    word-spacing: 2px;
+    margin-bottom: 2%;
+}
+.info{
+    display: flex;
+}
+.info .if{
+    border-radius: 10px;
+    width: 33%;
+    height: 100px;
+    display: flex;
+    font-size: 18px;
+    margin-right: 10px;
+    background-color: rgb(240, 240, 240);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5%;
+    font-weight: 200;
+    padding: 10px;
+}
+.info .if p{
+    margin-bottom: 5px;
+}
+.contact{
+    display: flex;
+}
+.contact .acc{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 0 2%;
+    width: 30%;
+}
+.acc img{
+    margin-right: 10px;
+}
+.acc a{
+    font-size: 18px;
+    text-decoration: none;
+}
+.bg5{
+    width: 100%;
+    height: 37vh;
+    background-image: url(logo/BG/bg7.webp);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+.bg5 .img{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0 10%;
+}
+.bg6{
+    width: 100%;
+    height: 37vh;
+    background-image: url(logo/BG/bg8.webp);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+.bg6 .img{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0 10%;
+}
+.bg7{
+    width: 100%;
+    height: 37vh;
+    background-image: url(logo/BG/bg9.webp);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+.bg7 .img{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0 10%;
+}
+.bg8{
+    width: 100%;
+    height: 37vh;
+    background-image: url(logo/BG/bg10.webp);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+.bg8 .img{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0 10%;
+}
+.bg9{
+    width: 100%;
+    height: 110vh;
+    background-image: url(logo/BG/bg14.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+.cont1{
+    text-align: left;
+    margin: 30px 10.5%;
+}
+.cont1 h1{
+    margin-top: 20px;
+    font-size: 70px;
+}
+.cont1 p{
+    margin-top: 5px;
+    font-size: 30px;
+}
+.jobs{
+    width: 80%;
+    margin: 5% 10%;
+}
+.jobs h1{
+    font-size: 60px;
+    color: rgb(61, 61, 61);
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+.jobs p{
+    font-size: 24px;
+    margin-bottom: 5%;
+}
+.northUsa{
+    display: flex;
+    flex-direction: column;
+}
+.northUsa h2{
+    width: 100%;
+    height: 80px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding: 0 25px;
+    font-size: 30px;
+    font-weight: 600;
+    background-color: rgb(240, 240, 240);
+}
+.north{
+    /* margin-top: 20px; */
+    display: flex;
+    width: 100%;
+}
+.north .n1{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 60px;
+    margin: 3%;
+}
+.north .n2{
+    width: 30%;
+    height: 120px;
+    margin: .01% 0;
+}
+.n2 h3{
+    font-size: 20px; 
+    display: flex;
+}
+.n2 h3 p{
+    font-size: 20px; 
+    font-weight: 400;
+}
+.n2 p{
+    font-size: 15PX; 
+    margin-bottom: 10PX;
+}
+.n1 h3{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.n1 a{
+    text-decoration: none;
+    font: 30px;
+    font-weight: 500;
+}
+.bg10{
+    padding: 0%;
+    height: 110vh;
+    background-image: url(logo/BG/bg13.webp);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.bg12{
+    padding: 0%;
+    height: 110vh;
+    background-image: url(logo/BG/bg11.webp);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.img1 img{
+    margin-top: 6.5%;
+}
+.head2,.btns1{
+    width: 80%;
+    margin: 3% 10%;
+    color: rgb(60, 60, 60);
+    font-size: 30px;
+}
+.head2 p{
+    margin-top: 10px;
+    font-size: 25px;
+}
+.btns1 button{
+    margin: 2% 7px;
+    height: 50px;
+    width: 350px;
+    color: #9e2121;
+    font-weight: 500;
+    background-color: #fff;
+    border: 0;
+    letter-spacing: 2px;
+    padding-left: 10px;
+    text-align: left;
+    font-size: 18px;
+    transition-duration: .2s;
+}
+.btns1 button:hover{
+    background-color: rgb(108, 108, 108);
+    border-radius: 7px;
+    color: #fff;
+}
+.bg11{
+    margin-top: 3%;
+    padding: 2% 0 0% 0;
+    height: 110vh;
+    background-image: url(logo/BG/bg12.webp);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-bottom: 0px;
+}
